@@ -41,7 +41,7 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/n7100/bluetooth
 
 # Kernel
 TARGET_KERNEL_SOURCE := kernel/samsung/smdk4412
-TARGET_KERNEL_CONFIG := lineage_n7100_defconfig
+TARGET_KERNEL_CONFIG := lineageos_n7100_defconfig
 
 # Power HAL
 TARGET_POWERHAL_VARIANT := samsung
