@@ -70,8 +70,7 @@ PRODUCT_PACKAGES += \
 
 # Sensors
 PRODUCT_PACKAGES += \
-    sensors.smdk4x12 \
-    libshims_sensors
+    sensors.smdk4x12
 
 # NFC
 PRODUCT_PACKAGES += \
