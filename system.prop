@@ -15,3 +15,6 @@ media.stagefright.legacyencoder=true
 
 # EGL blobs crash on screen off
 ro.egl.destroy_after_detach=true
+
+# Google Assistant
+ro.opa.eligible_device=true
