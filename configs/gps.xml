@@ -35,6 +35,12 @@
        LbsLocal="false"
        LbsServer="BCMLS2.glpals.com"
        LbsPort="7275"
+
+       LbsTAC="10101222"
+       ctrlPipe="/data/gps/glgpsctrl"
+       LbsWlanEnable="false"
+       SensorsEnable="false"
+
        LbsSyncLto="false"
        SyncLto="true"
        ltoFileName="lto2.dat"
