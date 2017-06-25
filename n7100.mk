@@ -68,6 +68,12 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     OpenDelta
 
+# Weather providers
+PRODUCT_PACKAGES += \
+    OpenWeatherMapProvider \
+    YahooWeatherProvider \
+    WundergroundWeatherProvider
+
 # Sensors
 PRODUCT_PACKAGES += \
     sensors.smdk4x12
