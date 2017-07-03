@@ -31,6 +31,7 @@
 # GPS
 /dev/ttySAC1                            u:object_r:gps_device:s0
 /system/bin/gps_daemon.sh               u:object_r:gpsd_exec:s0
+/system/bin/gpsd                        u:object_r:gpsd_exec:s0
 /sys/devices/virtual/gpio/gpio128/value u:object_r:sysfs_gps:s0
 
 # Sensors

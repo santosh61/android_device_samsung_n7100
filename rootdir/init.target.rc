@@ -11,6 +11,10 @@ on post-fs-data
     # make param block device link for SysScope
     symlink /dev/block/mmcblk0p7 /dev/block/param
 
+    write /data/.cid.info 0
+    restorecon /data/.cid.info
+    restorecon /data/ISP_CV
+
     # Restorecon
     restorecon_recursive /efs
 
